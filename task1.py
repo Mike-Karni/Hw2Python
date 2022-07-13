@@ -3,7 +3,13 @@
 - 6782 -> 23
 - 0,56 -> 11'''
 
-import main
+import main as sum
+
+
+number = input("Введите число ")
+print(main.sum(number))
+
+print()
 def Sum(num):
     sum = 0
     for i in range(len(num)):
